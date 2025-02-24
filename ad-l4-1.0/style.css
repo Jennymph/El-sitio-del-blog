@@ -3,3 +3,70 @@ html {
     width: 100%;
   }
   
+  footer p{
+      display: inline-block;
+      margin: 5%;
+      }
+
+      .header {
+        display: flex; /* Hace que los elementos estén en línea */
+        align-items: center; /* Alinea verticalmente */
+        gap: 10px; /* Espacio entre el título y la imagen */
+      }
+      
+      .header h1 {
+        margin: 0; /* Elimina márgenes extra del título */
+      }
+      
+      .header img {
+        max-width: 100%; /* Evita que la imagen se deforme en pantallas pequeñas */
+        height: auto; /* Mantiene la proporción */
+      }
+
+      
+      /* General sobre nosotros */
+.sobre-nosotros div {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para cada sección */
+.vision {
+  background-color: #ffebcc; /* Color de fondo */
+  border: 2px solid #ffa500; /* Borde naranja */
+}
+
+.mision {
+  background-color: #cceeff;
+  border: 2px solid #007acc; /* Borde azul */
+}
+
+.valores {
+  background-color: #ccffcc;
+  border: 2px solid #009933; /* Borde verde */
+}
+
+/* Opcional: Mejorar la lista */
+.valores ul {
+  padding-left: 20px;
+}
+
+.valores li {
+  margin: 5px 0;
+}
+
+
+/*diseño para el los datos*/
+.datos {
+  background-color: violet;
+  border: 2px solid black;
+}
+
+.datos ul {
+  padding-left: 20px;
+}
+
+.datos li{
+  margin: 5px 0;
+}
