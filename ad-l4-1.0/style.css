@@ -2,4 +2,19 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  body{
+    background-color: rgb(149, 108, 33); 
+    
+    }
+
+  #principal{
+    background-color: cadetblue;}
+   
+
+  footer p{
+    display: inline-block;
+    margin: 5%;
+    color: goldenrod;
+    }
   
