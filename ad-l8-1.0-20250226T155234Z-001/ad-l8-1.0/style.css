@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
