@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #f5deb3;">
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">warning</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <header>
+        <h1 class="chicharrikos">
+        <img src="Wireframe-Backup/chicharito.jpg" alt="Logo" class="Logo"> Chicharrikos</h1>
+
+    </header>
+
+    <p class="lead">Expertas en botanas menos procesadas.</p>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Chicharrikos">Chicharrikos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 bg-primary text-white p-3">Columna 1</div>
+            <div class="col-md-4 bg-secondary text-white p-3">Columna 2</div>
+            <div class="col-md-4 bg-success text-white p-3">Columna 3</div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-2 bg-light border p-3">
+                <h5>Noticias</h5>
+            </div>
+            <div class="col-md-7 text-center">
+                <h1 class="display-4">Bienvenido a Chicharrikos</h1>
+                <p class="lead">Este es un texto aleatorio para rellenar la página de inicio.</p>
+                <img src="https://via.placeholder.com/600x300" class="img-fluid" alt="Imagen de ejemplo">
+            </div>
+            <div class="col-md-2 bg-light border p-3">
+                <h5>Publicidad</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-2 bg-light border p-3">
+                <h5>Publicidad</h5>
+            </div>
+
+            <div class="col-md-7 text-center">
+                <h1 class="display-4">Quiénes Somos</h1>
+                <p class="lead">Somos un equipo apasionado por crear contenido innovador y útil para nuestra comunidad.</p>
+
+                <h2>Equipo</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <h5>Nombre del Miembro</h5>
+                        <p>Descripción breve del miembro.</p>
+                    </div>
+                </div>
+
+                <h2>Nuestro Propósito</h2>
+                <p>Nuestro objetivo es brindar información valiosa y entretenida a través de nuestro sitio web.</p>
+            </div>
+
+            <div class="col-md-2 bg-light border p-3">
+                <h5>Noticias</h5>
+            </div>
+        </div>
+    </div>
+
+    <form id="contact-form" method="post" action="mailto:tucorreo@ejemplo.com" enctype="text/plain">
+        <div class="messages"></div>
+        <div class="controls">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Nombre *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Por favor ingresa tu nombre *" required="required" data-error="Nombre es requerido.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Correo Electrónico *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor ingresa tu correo electrónico *" required="required" data-error="Correo electrónico es requerido.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Mensaje *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Mensaje para nosotros *" rows="4" required="required" data-error="Por favor, déjanos un mensaje."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Enviar mensaje" id="submit-btn">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

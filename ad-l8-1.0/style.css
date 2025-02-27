@@ -1,0 +1,61 @@
+html 
+{
+    height: 100%;
+    width: 100%;
+}
+
+body 
+{
+    background-color: #f5deb3;
+}
+
+.btn-primary 
+{
+    background-color: #09ac20 !important;
+    border-color: #09ac20 !important;
+}
+
+.btn-secondary 
+{
+    background-color: #00ff21 !important;
+    border-color: #00ff21 !important;
+}
+
+.btn-danger 
+{
+    background-color: #13650c !important;
+    border-color: #13650c !important;
+}
+
+.btn-warning {
+    background-color: #47aa43 !important;
+    border-color: #47aa43 !important;
+}
+
+.btn-dark {
+    background-color: #094f04 !important;
+    border-color: #094f04 !important;
+}
+
+img 
+{
+    mix-blend-mode: multiply; 
+}
+
+img 
+{
+    width: 80px; 
+    height: auto; 
+}
+
+.chicharrikos {
+    color: forestgreen;
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+    font-size: 60px;
+    vertical-align: middle; /* Alinea la imagen con el texto */
+    margin-right: 10px;
+    display: flex; /* Usamos flexbox también dentro del h1 */
+    justify-content: center; /* Centra el texto y la imagen horizontalmente */
+    
+}
